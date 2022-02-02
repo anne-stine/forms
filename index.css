@@ -3,6 +3,11 @@ body {
     background-size: cover;
 }
 
+a {
+    font-weight: bold;
+    color: royalblue;
+}
+
 button {
     background: green;
     color: white;
