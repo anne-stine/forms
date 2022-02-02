@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Forms</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+
+    <body>
+        <h1>Forms</h1>
+
+        <form action="index.html">
+            <div>
+                <label for="name">Fill in your name</label><br>
+                <input type="text" id="name" name="name" required><br>
+            </div>
+            <div>
+                <label for="superpower">Pick a superpower</label><br>
+                <select id="superpower" name="superpower" required><br>
+                    <option>Ability to fly</option>
+                    <option>Ability to fall asleep on (self)command</option>
+                    <option>Ability to remember everything</option>
+                    <option>Ability to talk very slowly</option>
+                </select>
+            </div>
+            <div>
+                <h2>Tick the boxes that <em>you</em> like</h2><br>
+
+                <input type="checkbox" id="lavalamp" name="lavalamp"">
+                <label for="lavalamp">Lava lamp</label><br>
+                <input type="checkbox" id="sugarcoffee" name="sugarcoffee" value="sugarcoffee">
+                <label for="sugarcoffee">Sugar in my coffee</label><br>
+                <input type="checkbox" id="cats" name="cats" value="cats">
+                <label for="cats">Cats</label><br>
+                <input type="checkbox" id="dogs" name="dogs" value="dogs">
+                <label for="dogs">Dogs</label><br>
+            </div>
+                <button class="button-submit" type="submit">Send to Santa Claus</button>
+        </form>
+    </body>
+</html>

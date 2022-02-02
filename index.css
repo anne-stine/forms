@@ -1,0 +1,13 @@
+body {
+    background: url("img/pexels-laura-james-6101974.jpg");
+    background-size: cover;
+}
+
+button {
+    background: green;
+    color: white;
+    border: 5px dotted red;
+    padding: 10px;
+    border-radius: 50px;
+    margin: 40px auto;
+}
